@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/doctors', function () {
     return view('doctors.index');
 });
+Route::get('/centers', function () {
+    return view('centers.index');
+});
