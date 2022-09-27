@@ -70,12 +70,13 @@
 @endsection
 
 @section('content')
-<div class="d-flex">
+<div id="app" class="d-flex">
     <div class="center-side"></div>
     <div class="center-content-wrapper">
         <div class="content-nav">
             <span class="center-result">1-9 Of 107 results</span>
         </div>
+        <Hello></Hello>
         <div class="centers-content">
             <div class="center">
                     <div class="center-img"></div>
@@ -108,4 +109,6 @@
         </div>
     </div>
 </div>
+<script src="{{ mix('js/app.js') }}"></script>
+
 @endsection
